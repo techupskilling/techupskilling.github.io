@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- based on (0043)http://getbootstrap.com/examples/dashboard/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./football.ico">
+
+    <title>About Our Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet">
+
+    <!-- CSS for datatables --> 
+    <link href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./football_site_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      .navbar-custom {
+        background-color:#073D72;
+        color:#FFFFFF;
+        border-radius:0;
+      }
+
+      .navbar-custom .navbar-nav > li > a {
+        color:#fff;
+      }     
+      .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+        color: #ffffff;
+        background-color:transparent;
+      }
+      .navbar-custom .navbar-brand {
+        color:#eeeeee;
+      }
+
+      .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
+        background-color: transparent;
+        color: #999999;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../footballsite">Football Predictions</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="container-fluid">  
+        <br>
+        <h2 class="sub-header" align=center>Overview and Motivation</h3>
+
+          <p>As football fans intrigued by the sports betting world we wanted to take a look at the NFL and the closing lines (or spread) that Vegas sets. We wondered whether we could apply the concepts that we learned in class to predict game outcomes. Not only did we want to predict the winner of each game, but we also wanted to calculate a spread of our own for each game and see how it compares to the closing lines set by Vegas. Finally, we wondered if it was even possible to exploit the sports betting market and in our best-case scenario find a profitable betting strategy.</p>
+          <p></p>
+          <h4 class="panel-title">Sports betting closing lines (or spread)</h4>
+          <br>
+          <p>
+            NFL sports betting is a multi-billion dollar industry where avid fans, gamblers, and shrewd bettors speculate on the outcome of various games. Las Vegas provides a sports betting market to make all this happen. Gamblers can take either side of a game, though usually one team is the clear favorite. To prevent people from always betting the stronger side, Vegas odds-makers assign a number which handicaps one team and favors the other. This number is called the spread, or line, and it is usually determined by a group of professional odds-makers. How these odds-makers come up with these lines is not publically available; they may use formulas, simulations, or statistical models, or it may be entirely man-made. The lines move based on the bets coming in, in an attempt to maximize action on both sides. We set out to come up with a model of our own to predict NFL game spreads and see how it compares to the Vegas lines. We also wanted to examine the sports betting market and see if there was any inefficiency in the closing spreads that could lead to a winning betting strategy. We would first start by exploring the data to see what contributes the most to team wins. <p>
+          <h4 class="panel-title">Initial Questions</h4>
+          <br>
+          <p>
+          There were several main questions that we initially wanted to address in our project: <br>
+          <ul>
+            <li>What are the most significant statistics that contribute to the final score and winner of an NFL game?</li>
+            <li>How well do past results predict future performance, and which of those statistics are the most predictive? </li>
+            <li>How accurate are the NFL closing lines set by Vegas and the betting public? </li>
+            <li>Are there any discernable trends or bias in the closing lines? </li> 
+            <li>Can we find any inefficiency in the NFL sports betting market? </li></p>
+          </ul>
+        <h3 class="panel-title">Explore the data we used <a href="./data.html">here</a> or learn about our model and results <a href="./model.html">here</a>
+      </div>     
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="./football_site_files/jquery.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./football_site_files/bootstrap.min.js"></script> 
+    <script src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+    <!-- <script src="./football_site_files/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./football_site_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="./get_table.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1417336879956">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1417336879956" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="10" style="font-weight:bold;font-size:10pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">200x200</text></svg></body></html>
