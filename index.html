@@ -52,7 +52,7 @@
       }
 
       .accordion-heading {
-        background-color:#073D72;
+        background-color:blue;
         vertical-align: center;
         text-align: center;
         color:#FFFFFF;
@@ -62,10 +62,6 @@
         margin-right:15%;
       }
 
-      .accordion-body {
-        margin-left:15%;
-        margin-right:15%;
-      }
     </style>
   </head>
 
@@ -97,10 +93,10 @@
     </nav>
 
     <div class="container-fluid">
-      <div class="accordion" id="accordion1">
+      <div class="accordion" id="accordion1" data-theme="c" data-content-theme="d">
         <div class="accordion-group">
           <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play1" data-theme="b">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play1">
             <h2 align="center"> Play 1</h2>
             </a>
           </div>
@@ -112,7 +108,7 @@
         </div>
         <div class="accordion-group" align:"center">
           <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play2" data-theme="b">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play2">
             <h2 align="center">Play 2</h2>
             </a>
           </div>
@@ -123,9 +119,9 @@
           </div>
         </div>
         <div class="accordion-group">
-          <div class="accordion-heading" data-theme="b" background-color="red">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#play3" data-theme="b">
-            <h2 align="center" margin-top="20px">Play 3</h2>
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#play3" style:"color:#FFFFFF">
+            <h2 align="center">Play 3</h2>
             </a>
           </div>
           <div id="play3" class="accordion-body collapse">
@@ -136,8 +132,8 @@
         </div>
         <div class="accordion-group">
           <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#play4" data-theme="b">
-            <h2 align="center" margin-top="20px">Play 4</h2>
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#play4">
+            <h2 align="center">Play 4</h2>
             </a>
           </div>
           <div id="play4" class="accordion-body collapse">
@@ -148,8 +144,8 @@
         </div>          
         <div class="accordion-group">
           <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#play5" data-theme="b">
-            <h2 align="center" margin-top="20px">Play 5</h2>
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#play5">
+            <h2 align="center">Play 5</h2>
             </a>
           </div>
           <div id="play5" class="accordion-body collapse">
@@ -160,8 +156,8 @@
         </div>
         <div class="accordion-group">
           <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#play6" data-theme="b">
-            <h2 align="center" margin-top="20px">Play 6</h2>
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#play6">
+            <h2 align="center">Play 6</h2>
             </a>
           </div>
           <div id="play6" class="accordion-body collapse">
