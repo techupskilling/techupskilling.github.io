@@ -54,18 +54,18 @@
       .accordion-heading {
         background-color:#ffdead;
         vertical-align: center;
-        text-align: center;
+        text-align: left;
+        text-indent: 1%;
         color:#FFFFFF;
-        width:70%;
-        height:60px;
-        margin-left:15%;
-        margin-right:15%;
-        -moz-border-radius:10px;
+        height:40px;
+        a {
+          color:#073D72;
+        }
       }
 
       .accordion-body {
-        margin-left:15%;
-        margin-right:15%;
+        margin-left:1%;
+        margin-right:1%;
       }
 
     </style>
@@ -87,19 +87,92 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="./aboutTheProject.html">About Our Project</a></li>
-            <li><a href="./collapsible.html">Collapsing Sample Site</a></li>
-            <li><a href="./play1.html">Overview</a></li>
-            <li><a href="./play2.html">Training Opportunities</a></li>
-            <li><a href="./play3.html">Hiring</a></li>
-            <li><a href="./play4.html">Finance</a></li>
-            <li><a href="./play5.html">Diversity</a></li>
-            <li><a href="./play6.html">Mentorship</a></li>
+            <li><a href="#play1.html">Overview</a></li>
+            <li><a href="#play2.html">Training Opportunities</a></li>
+            <li><a href="#play3.html">Hiring</a></li>
+            <li><a href="#play4.html">Finance</a></li>
+            <li><a href="#play5.html">Diversity</a></li>
+            <li><a href="#play6.html">Mentorship</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="container-fluid">
+      <div class="accordion" id="accordion1">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play1">
+            <h2> Play 1</h2>
+            </a>
+          </div>
+          <div id="play1" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              Anim pariatur cliche...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play2">
+            <h2>Play 2</h2>
+            </a>
+          </div>
+          <div id="play2" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              Anim pariatur cliche...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#play3" style:"color:#FFFFFF">
+            <h2>Play 3</h2>
+            </a>
+          </div>
+          <div id="play3" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              Anim pariatur cliche...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#play4">
+            <h2>Play 4</h2>
+            </a>
+          </div>
+          <div id="play4" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              Anim pariatur cliche...
+            </div>
+          </div>
+        </div>          
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#play5">
+            <h2>Play 5</h2>
+            </a>
+          </div>
+          <div id="play5" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              Anim pariatur cliche...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#play6">
+            <h2>Play 6</h2>
+            </a>
+          </div>
+          <div id="play6" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              Anim pariatur cliche...
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript
