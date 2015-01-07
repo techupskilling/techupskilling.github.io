@@ -10,7 +10,7 @@
     <title>Technology Policy and Innovation</title>
 
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- CSS for datatables --> 
     <link href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" rel="stylesheet">
 
@@ -50,24 +50,26 @@
         color: #999999;
       }
 
-      .accordion-heading > li > a {
-        border-top-color: red;
-        border-right-color: red;
-        border-left-color: red;
-        border-bottom-color: red;
-        vertical-align: center;
-        text-align: left;
-        text-indent: 1%;
-        color:red!important;
-        height:20px;
-        a {
-          color:#073D72;
-        }
+      .accordion, .accordion * {
+        -webkit-box-sizing:border-box; 
+        -moz-box-sizing:border-box; 
+        box-sizing:border-box;
+      }
+ 
+      .accordion {
+        overflow:hidden;
+        box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+        border-radius:3px;
+        background:#f7f7f7;
       }
 
       .accordion-body {
         margin-left:1%;
         margin-right:1%;
+      }
+
+      .accordion-heading {
+        color:red;
       }
 
       .panel {
@@ -123,7 +125,7 @@
     </nav>
 
     <div class="container-fluid">
-      <div class="accordion" id="accordion1">
+      <div class="accordion">
         <div class="accordion-group">
           <div id="play1">
           </div>
@@ -133,7 +135,7 @@
           <div class="panel panel-primary"> 
             <div class="panel-heading">
               <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play1togg">
+                <a class="accordion-toggle" data-toggle="collapse" href="#play1togg">
                 <h3 name="play1" color="red"> Play doh</h3>
                 </a>
               </div>
@@ -216,7 +218,7 @@
           <div class="panel panel-primary"> 
             <div class="panel-heading">
               <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play2togg">
+                <a class="accordion-toggle" data-toggle="collapse" href="#play2togg">
                 <h2 name="play2"> Play 2</h2>
                 </a>
               </div>
@@ -299,7 +301,7 @@
           <div class="panel panel-primary"> 
             <div class="panel-heading">
               <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play3togg">
+                <a class="accordion-toggle" data-toggle="collapse" href="#play3togg">
                 <h2 name="play3"> Play 3</h2>
                 </a>
               </div>
@@ -382,7 +384,7 @@
           <div class="panel panel-primary"> 
             <div class="panel-heading">
               <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play4togg">
+                <a class="accordion-toggle" data-toggle="collapse" href="#play4togg">
                 <h2 name="play4"> Play 4</h2>
                 </a>
               </div>
@@ -465,7 +467,7 @@
           <div class="panel panel-primary"> 
             <div class="panel-heading">
               <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play5togg">
+                <a class="accordion-toggle" data-toggle="collapse" href="#play5togg">
                 <h2 name="play5"> Play 5</h2>
                 </a>
               </div>
@@ -548,7 +550,7 @@
           <div class="panel panel-primary"> 
             <div class="panel-heading">
               <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#play6togg">
+                <a class="accordion-toggle" data-toggle="collapse" href="#play6togg">
                 <h2 name="play6"> Play 6</h2>
                 </a>
               </div>
@@ -638,7 +640,6 @@
     <!-- <script src="./football_site_files/docs.min.js"></script> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./tech_policy_files/ie10-viewport-bug-workaround.js"></script>
-    <script src="./toggling.js"></script>
   
 
 <div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1417336879956">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1417336879956" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="10" style="font-weight:bold;font-size:10pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">200x200</text></svg></body></html>
