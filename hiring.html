@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- based on (0043)http://getbootstrap.com/examples/dashboard/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./logo.gif">
+
+    <title>Technology Policy and Innovation</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS for datatables --> 
+    <link href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./tech_policy_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      .navbar-custom {
+        background-color:#336799;
+        /* color:#FFFFFF; */
+        color:white;
+        font-weight:bold;
+        font-size:1.2em;
+        border-radius:0;
+      }
+
+      .navbar-custom .navbar-nav > li > a {
+        /*color:#fff; */
+        color:white;
+        font-weight:bold;
+      }     
+      .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+        /* color: #ffffff; */ 
+        color: white;
+        font-weight:bold;
+        background-color:transparent;
+      }
+      .navbar-custom .navbar-brand {
+        font-weight:bold;
+        font-size:1em;
+        color:white;
+      }
+
+      .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
+        background-color: transparent;
+        color: #999999;
+        font-size:1em;
+        color:white;
+      }
+
+      .panel {
+        background-color:white;
+        color:black;
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
+        vertical-align: center;
+        margin-bottom: 21px;
+        margin-top:21px;
+        border-radius: 4px;
+      }
+
+      .panel-body {
+        padding: 15px;
+        margin-top:1in;
+        margin-bottom:1in;
+        margin-left:1in;
+        margin-right:1in;
+      }
+
+      .hangingindent {
+        padding-left: .5in ;
+        text-indent: -.5in ;
+      }
+
+      body {
+        background-color:#991D1F;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=".">
+            <img src="./logo.gif" height="75" width="150" alt="">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="..">Home</a></li>
+            <li><a href="./upskilling.html">Upskilling Programs</a></li>
+            <li><a href="./finance.html">Finance</a></li>
+            <li><a href="./diversity.html">Diversity</a></li>
+            <li><a href="./mentorship.html">Mentorship</a></li>
+            <li><a href="./recommendations.html">Recommendations</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="panel panel-primary"> 
+        <div class="panel-body" style="padding:10px; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size: 16px;">
+          <p style="font-size:20px">Hiring</p>
+          <br>
+          <p style="color:#336799">MOOCs</p>
+          <br>
+          <p>While the development of MOOCs as an alternative training pathway has progressed significantly in recent years, better flow of information between employers and MOOC providers is essential to enhancing the job opportunities available to MOOC graduates.</p>
+          <br>
+          <p>In a 2006 -- prior to the rise of the large-scale MOOC movement -- survey of over 260 U.S. hiring executives across a wide swath of technical industries, over 96% indicated that they would prefer an applicant with a traditional college degree over a candidate with an online degree (Adams and Defleur).  </p>
+          <br>
+          <p>However, jump forward eight years, and that trend has nearly reversed itself.  More than 73% of executives responding to a 2014 study indicated that during the hiring process they would look favorably upon MOOCs (Duke/RTI). While this reversal bodes well for prospective employees, the fact remains that only 31% of the hiring executives surveyed had heard of MOOCs prior to the survey (Duke/RTI). </p>
+          <br>
+          <p>While some “gatekeepers” — industry parlance for individuals who evaluate potential employees — also cite varied concerns with online education (Columbaro and Monaghan), the dramatic swing between the two studies shows the effect that complete information about MOOCs can have on an employer’s perception of a potential applicant. </p>
+          <br>
+          <p>As such, a better flow of information between MOOC providers and employers is essential to strengthening the hiring process. Improvements in information flow are needed in two key areas: curriculum and job postings. Even among college graduates, there exist significant gaps between what students learn and the skills prospective employers desire — one study revealed a 35% disparity between employer demand for certain basic computer skills and student competency (Marcarelli and Carter). This gap represents an opportunity that could potentially be filled by directly involving employers in the MOOC development process. In one notable example, the Georgia Department of Education has used a custom-developed MOOC to assess the qualifications of all teachers hired since April 2014 for its Georgia Virtual School program, to general satisfaction (Cozart). The use of MOOCs as a “qualifier” for employment is an interesting practice: by tailoring the courses to match their specific hiring needs, employers can be assured that prospective employees have exactly the skills they need.</p>
+          <br>
+          <p>One promising partnership between MOOC providers and employers is Udacity’s Nanodegree program. Produced in collaboration with AT&amp;T, with input from industry leaders like Google and Facebook, Nanodegrees are coherent programs of study -- usually comprising several MOOCs and a capstone course or project -- that aim to teach the skills needed for a specific position: currently offered Nanodegrees include “Data Analyst,” “iOS Developer,” and “Front-End Web Developer” (AT&amp;T, Udacity).  As Udacity founder and CEO Sebastian Thrun put it, Udacity and its partners are “taking specific jobs and reverse-engineering them to teach what’s required and then certifying a person in that area” (Chapman). </p>
+          <br>
+          <p>Creating better information flow in the hiring process will aid in filling positions, as well. Currently, most IT companies have their own systems for posting job opportunities, which require the user to have a particular corporation in mind, right from the outset of their search (Google). This has led to a decentralization of job postings and language used to refer to particular functions and skills, to the point where it is now quite difficult for a potential employee to get a clear picture of the job opportunities available to them and the qualifications required. The creation of a central clearinghouse for job postings -- a la the federal government’s USAJobs.gov -- could be a potential solution to this challenge. As an added benefit, it could be implemented on a variety of levels (local, regional, etc.), to better meet applicant demand. </p>
+
+          <p style="color:#336799">Community Colleges</p>
+          <br>
+          <p>One of the most important actions a community college can take to improve hiring practices between its tech students and tech companies is to form partnerships with employers / businesses. Such partnerships provide community college students with apprenticeships, valuable on-the-job experience that may lead to future job offers. They also help community colleges to better understand what attributes or qualities employers are looking for in potential hires. Not only do these partnerships benefit the colleges by providing students with increased job prospects through an established relationship with an employer, but they also aid employers in streamlining the hiring process. Specifically, these relationships help to produce a stream of trained candidates for positions in the company. </p>
+          <br>
+          <p>Many community colleges have already formed partnerships with tech companies, but the Department of Labor has also recently announced the Trade Adjustment Assistance Community College and Career Training grant program, which aims to develop and expand innovative training programs partnered with local employers (“Obama administration announces” 1). Thus, with backing from the federal government, it is easy to see the potential that these partnerships have. For community colleges, they would increase reliability and legitimacy of, and thus increase enrollment in, IT and coding based programs. For businesses searching for non-traditional methods of finding candidates for positions in their company, community colleges provide the accessibility and reliability that other alternative training programs (i.e., MOOCs and bootcamps) do not have. These partnerships would also fill the vital skills gap in mid-level tech positions. Furthermore, company resources spent on the hiring process would be reduced, thus increasing efficiency without sacrificing quality of candidates.</p>
+          <br>
+          <p>While community colleges can reach out to businesses to establish partnerships (and vice versa), businesses can also consider hiring candidates who show unique or valuable qualities beyond technological knowledge or skill. Community college students often have valuable life experience that puts them at a unique advantage for important aspects of any job, including analytical ability or team leadership. Especially for mid-level positions in which advanced technological skills beyond a certain point are unnecessary, a modified hiring process that places value on life experiences or non-technological skills may contribute to filling the skills gap and increasing jobs. Large, multi-national tech corporations such as Google have adopted this kind of a hiring process, as the overall benefits are significant (Friedman 1). </p>
+          <br>
+          <p>Community colleges also can provide students with career services, including interview preparation, resume and cover letter editing services, and career advising. In this way, community colleges place focus on hiring prospects for their students, assisting them in the hiring process. </p>
+          <br>
+          <p>Thus, from apprenticeships and internships to career services that help connect students to job opportunities in the tech industry, community colleges and companies can work together to increase the representation of community college talent and skill in the tech workplace. 
+
+          <p style="color:#336799">Coding Bootcamps</p>
+          <br>
+          <p>Predominantly, upon completion of the bootcamp program, graduates have found jobs in the technology sector with a strong salary growth. In a 2014 survey of coding bootcamp graduates conducted by Course Report, bootcamp alumni reported a 44% increase in their salaries (Course Report). Specifically, respondents reported receiving an average of $25,000 more in salary in their first job after graduating (Course Report). This strong evidence of salary growth was found in both categories of only full-time employed respondents and all respondents. The report notes that of those surveyed, 75% felt that their current job required skills in which they did not have experience prior to the bootcamp (Course Report). The Course Report findings also list information on the services that bootcamps provide to help their new graduates find high-paying jobs. Eighty seven percent of respondents said they received resume editing assistance, while 60% were placed into an internship or apprenticeship through their bootcamp (Course Report). 42% benefitted from on-site interviews at the bootcamp while 58% received job placement assistance (Course Report). </p>
+          <br>
+          <p>While these statistics are encouraging for bootcamps as a whole, some bootcamps offer even higher levels of job retention. At both App Academy and Flatiron, for example, the large majority of applicants find jobs; of App Academy’s class, 98% found jobs working in the tech sector as of six months after graduation. Flatiron also reports 98% found jobs within 90 days of graduation. General Assembly, Hack Reactor, and MakerSquare are just a few of the other programs that boast over 90% success rates for job placement of their graduates (Wall Street Journal). </p>
+          <br>
+          <p>While some coding bootcamps have very successful hiring practices, the system itself leaves room for improvement. An article in Skilled Up characterizes being a programmer as demanding more than coding knowledge alone. Like any other job, applying for a developer/programmer/software engineer position requires networking and active searching (Skilled Up). Many bootcamps have resources to help candidates secure jobs, including through a company partnership or connections of the teachers. Students, however, should network outside of the bubble of their individual connections by working with peers in the program and with students in other courses.  </p>
+          <br>
+          <p>One factor that may support bootcamp graduates’ employment success is the high level of postsecondary education attained by the majority of graduates prior to enrolling in the bootcamp. Course Report reported that 71% of respondents had a bachelor’s degree while another 15% had a master’s degree (Course Report). These strong employment numbers may not be indicative of hiring for participants who have only completed secondary school or who are transitioning from a different vocation. However, since there are likely many jobs that do not require a bachelors degree, and which can be done with a level of code obtained at a bootcamp, this factor should not deter bootcamps from accepting students from a wide and diverse range of educational backgrounds.</p> 
+          <br>
+          <p align="center">Works Cited</p>
+          <p class="hangingindent">Adams, Jonathan, and Margaret H. Defleur. “The Acceptability of Online Degrees Earned as a Credential for Obtaining Employment.” Communication Education 2006: 32–45. Web.</p> 
+          <p class="hangingindent">AT&amp;T. “AT&amp;T and Udacity Launch Online Training Program Nanodegree.” 16 July 2014. Web.</p> 
+          <p class="hangingindent">Chapman, Lizette. “E-Learning Startup Udacity Raises $35M to Launch ‘Nanodegrees.’” The Wall Street Journal. 2014. Web.</p> 
+          <p class="hangingindent">Columbaro, Norina L, and Catherine H Monaghan. “Employer Perceptions of Online Degrees: A Literature Review.” Online Journal of Distance Learning Administration 12 (2009): 1–10. Web.</p> 
+          <p class="hangingindent">Cozart, Joe. “Training Online Teachers Through A Badge Driven Course.” eLearn 2014.9 (2014). Web.</p> 
+          <p class="hangingindent">Google. “Search - Google Careers.” 2014. Web.</p> 
+          <p class="hangingindent">Marcarelli, Catherine J., and Lori J. Carter. “Work in Progress - Bridging the Technology Gap: An Analysis of Industry Needs and Student Skills.” Proceedings - Frontiers in Education Conference, FIE. 2009. Web.</p> 
+          <p class="hangingindent">Udacity. “Nanodegrees: A New Kind Of Credential For Jobs in Technology.” 2014. Web.</p> 
+          <p class="hangingindent">“Obama administration announces $474.5 million in grants to expand demand-driven skills training and strengthen employer partnerships.” <em>United States Department of Labor - Employment and Training Administration</em>. United States Department of Labor - Employment and Training Administration, n.d. Web. <a href="http://www.dol.gov/opa/media/press/eta/eta20131932.htm">http://www.dol.gov/opa/media/press/eta/eta20131932.htm</a>.</p> 
+          <p class="hangingindent">Friedman, Thomas L. “How to Get a Job at Google.” New York Times 23 Feb. 2014, New York ed., sec. SR: 11. Print.</p> 
+          <p class="hangingindent">Skilled Up, <a href="http://www.skilledup.com/learn/programming/the-ultimate-guide-to-coding-bootcamps-the-exhaustive-list/">http://www.skilledup.com/learn/programming/the-ultimate-guide-to-coding-bootcamps-the-exhaustive-list/</a></p> 
+          <p class="hangingindent">Course Report, <a href="https://www.coursereport.com/2014-graduate-survey.pdf">https://www.coursereport.com/2014-graduate-survey.pdf</a></p> 
+          <p class="hangingindent">Wall Street Journal, May 20 2014, <a href="http://blogs.wsj.com/atwork/2014/05/20/do-coding-schools-deliver/">http://blogs.wsj.com/atwork/2014/05/20/do-coding-schools-deliver/</a></p>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-custom navbar-fixed-bottom" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="..">Project by the Technology and Innovation Policy Group at the Harvard University Institute of Politics</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="./football_site_files/jquery.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./tech_policy_files/bootstrap.min.js"></script> 
+    <script src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+    <!-- <script src="./football_site_files/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./tech_policy_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1417336879956">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1417336879956" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="10" style="font-weight:bold;font-size:10pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">200x200</text></svg></body></html>
