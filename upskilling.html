@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- based on (0043)http://getbootstrap.com/examples/dashboard/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./logo.gif">
+
+    <title>Technology Policy and Innovation</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS for datatables --> 
+    <link href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./tech_policy_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      .navbar-custom {
+        background-color:#336799;
+        /* color:#FFFFFF; */
+        color:white;
+        font-weight:bold;
+        font-size:1.2em;
+        border-radius:0;
+      }
+
+      .navbar-custom .navbar-nav > li > a {
+        /*color:#fff; */
+        color:white;
+        font-weight:bold;
+      }     
+      .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+        /* color: #ffffff; */ 
+        color: white;
+        font-weight:bold;
+        background-color:transparent;
+      }
+      .navbar-custom .navbar-brand {
+        font-weight:bold;
+        font-size:1em;
+        color:white;
+      }
+
+      .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
+        background-color: transparent;
+        color: #999999;
+        font-size:1em;
+        color:white;
+      }
+
+      .panel {
+        background-color:white;
+        color:black;
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
+        vertical-align: center;
+        margin-bottom: 21px;
+        margin-top:71px;
+        border-radius: 4px;
+      }
+
+      .panel-body {
+        padding: 15px;
+        margin-left:1in;
+        margin-right:1in;
+      }
+
+      body {
+        background-color:#991D1F;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=".">
+            <img src="./logo.gif" width="150" alt="">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="..">Home</a></li>
+            <li><a href="./hiring.html">Hiring</a></li>
+            <li><a href="./finance.html">Finance</a></li>
+            <li><a href="./diversity.html">Diversity</a></li>
+            <li><a href="./mentorship.html">Mentorship</a></li>
+            <li><a href="./recommendations.html">Recommendations</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="panel panel-primary"> 
+        <div class="panel-body">
+          <p style="font-size:20px">UPSKILLING PROGRAMS"</p>
+          <br>
+          <p style="color:blue">MOOCs</p>
+          <br>
+          <p> Massively open online courses (MOOCs) are the internet’s response to the college class. Spanning 4-12 weeks per course, they consist of video lessons integrated with quizzes and homework assignments. MOOCs offer easy access to content across nearly every academic discipline, with a particular emphasis on computer-related subjects, and cover a skill range from the Advanced Placement level all the way to mid-level graduate courses (edX). </p>
+          <br>
+          <p>The rise of the MOOC is a recent phenomenon, with the “big 3” providers — Harvard-MIT’s edX, and the for-profit Udacity and Coursera — coming online by mid 2012 (Pappano). Today, they boast more than 11 million registered users, 1100 courses, and significantly more than 100,000 certificates awarded (“Coursera”; Udacity). The typical MOOC user is between ages 27 and 35 and either full-time employed or a full-time student (Inside Higher Ed; Palin; Ha).</p>
+          <br>
+          <p>Earning a statement of achievement from a MOOC is generally free, but identity-verified certificates can cost from $45 to $90, and formal course credit can bear fees of approximately $500. While there is a significant investment required to establish MOOC infrastructure, the cost of subsequent MOOCs is marginal (Daly).</p>
+          <br>
+          <p>MOOCs are infinitely scalable, offering the possibility to bring low-cost education to anyone with an internet connection. They allow both educators and students to measure progress in real time. Employer-designed “Nanodegrees” are currently in pilot stages (Porter).</p>
+          <br>
+          <p>As a developing format, MOOCs have some hurdles to overcome. Establishing a standardized system of course accreditation is a key challenge. So is maintaining user engagement and increasing course completion rates (Jordan).</p>
+          <br>
+          <br>
+          <p style="color:blue">Community Colleges</p>
+          <br>
+          <p>Community colleges offer a wide range of students an accessible format and support structure within which they can gain at a low cost valuable and reliably applicable critical thinking, coding and IT skills. Specifically, community colleges have begun in recent years to provide opportunities for students to acquire technical and coding skill through programs in cybersecurity, system security, IT, networking, and web development among other fields. Consequently, community colleges are a vital component of job growth in the tech industry, as recognized by the White House and the National Science Foundation and have promise to infuse the tech sector with professionals of a diverse array of backgrounds and skills (The White House 1, National Science Foundation 1).</p>
+          <br>
+          <p>Community colleges are known for their flexible class schedules, convenient locations (including the internet), open admission policies, and affordable tuition prices (“Trends and Statistics” 1). Each one of these aspects is a benefit that community colleges have over other nontraditional training programs, such as MOOCs and bootcamps. As a result, community colleges are uniquely positioned to provide a variety of types of tech training targeted at non-traditional populations, including part-time students, single parents, those with families, and those with limited access to resources for education (i.e. textbooks, internet, etc.). </p>
+          <br>
+          <p>Community college students, who often belong to underrepresented populations (National Association for College Admission Counseling 1, “Community College Enrollment” 1, “2014 Fact Sheet” 1), are ideal candidates for alternative training programs for technology industry positions. This is a major strength of a community college, especially compared to other alternative training programs, in which education is less accessible and the student population is less diverse.</p>
+          <br>
+          <p>Various community colleges around the country offer different types of technology degrees and programs which vary in format, ranging from two year technology and coding degrees to vocational certification. The variation in curriculum and length of these programs, even within a single institution, allows for accommodation of several types of non-traditional students, including those who work full or part time jobs and those with family or other obligations. While there is no standard “technology program” across all institutions, each program’s variation affords students the choice of whether to specialize in a particular field in technology (i.e., Computer IT, Networking Technology, Linux/Red Hat Administration, Database Management, etc.) or to obtain a more comprehensive tech education. The variation in programs also allows students to choose a program that best suits their individual schedules, as programs vary in pace and length. This further opens access to community colleges, as students with limited availability (i.e. part-time students, currently employed, single parents, those with families, etc.) can be accommodated. </p>
+          <br>
+          <p>Community colleges thus provide a variety of educational opportunities for non-traditional and underrepresented students, making it an important part of any discussion regarding diversity in education. </p>
+          <br>
+          <p style="color:blue">Coding Bootcamps</p>
+          <br>
+          <br>
+          <p>Coding bootcamps are a relatively new and burgeoning source of opportunity for people hoping to gain practical coding and entrepreneurship skills in a short amount of time. Coding bootcamps are short, rigorous programs of an average length of 10.4 weeks with the aim of preparing students for jobs in the technology sector. Due to their short-term structure and focus on cultivating applicable skills and learning capacity, bootcamps have the potential to attract students who might not have an interest or ability to pursue a 4 year degree or MBA program focusing on tech skills. Thus, these programs have the potential to expand the diversity of background and skill represented in the technology industry. Participants are generally young and the overwhelming majority have a 4 year degree (Schwartz), though many do not have any prior coding experience (SkilledUp). Many bootcamps are offering scholarships for women and underrepresented minorities in the technology industry, with the goal of making these programs open and as widely accessible as possible.</p>
+          <br>
+          <p>While bootcamps have a unique format which might attract a diverse group of interested candidates, several of the same aspects that make bootcamps compelling -- namely, tuition costs, structure, and competitive admission rates -- also may hinder their accessibility to some. Many bootcamps require students to pay full tuition upfront -- on average, tuition is $9,900 (Course Report). Furthermore, in order to ensure high job placement rates and to maintain learning environments with individual attention many bootcamps have a selective admissions acceptance rate averaging about 10%, with the most competitive boasting acceptance rates around 5% (San Francisco Gate). Finally, while some might find the short and intensive structure of the bootcamp to be more conducive to their needs than a 4 year degree dealing with the same areas, for others, taking time off from work or personal responsibilities might pose a challenge that constrains them from partaking in the bootcamp programs.</p>
+          <br>
+          <p>Though these are considerable hurdles, not all bootcamps require this type of time and financial commitment. Some programs, such as “Anyone Can Learn to Code” in Chicago, allow participants to continue working their jobs by offering classes at night (Anyone Can Learn to Code). Many bootcamps have found ways to offset their high tuition cost and support enrollment through scholarships or innovative, longterm payment methods. </p>
+          <br>
+          <p>More broadly, as bootcamps seek to become established members of the technology education market, they will need to leave a strong legacy and track record of employment outcomes, so that students and employers alike will come to recognize and accept widely these programs as a credible source of training. According to Course Report, the market for bootcamps will grow by 2.8x by the end of 2014, leading to 5987 graduates (Course Report). As these programs become more widespread, they will be challenged to adapt to the needs and goals of a broad and diverse student body. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="./football_site_files/jquery.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./tech_policy_files/bootstrap.min.js"></script> 
+    <script src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+    <!-- <script src="./football_site_files/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./tech_policy_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1417336879956">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1417336879956" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="10" style="font-weight:bold;font-size:10pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">200x200</text></svg></body></html>
