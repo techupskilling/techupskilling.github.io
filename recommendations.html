@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!-- based on (0043)http://getbootstrap.com/examples/dashboard/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./logo.gif">
+
+    <title>Technology Policy and Innovation</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS for datatables --> 
+    <link href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./tech_policy_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      .navbar-custom {
+        background-color:#336799;
+        /* color:#FFFFFF; */
+        color:white;
+        font-weight:bold;
+        font-size:1.2em;
+        border-radius:0;
+      }
+
+      .navbar-custom .navbar-nav > li > a {
+        /*color:#fff; */
+        color:white;
+        font-weight:bold;
+      }     
+      .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+        /* color: #ffffff; */ 
+        color: white;
+        font-weight:bold;
+        background-color:transparent;
+      }
+      .navbar-custom .navbar-brand {
+        font-weight:bold;
+        font-size:1em;
+        color:white;
+      }
+
+      .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
+        background-color: transparent;
+        color: #999999;
+        font-size:1em;
+        color:white;
+      }
+
+      .panel {
+        background-color:white;
+        color:black;
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
+        vertical-align: center;
+        margin-bottom: 21px;
+        margin-top:21px;
+        border-radius: 4px;
+      }
+
+      .panel-body {
+        padding: 15px;
+        margin-top:1in;
+        margin-bottom:1in;
+        margin-left:1in;
+        margin-right:1in;
+      }
+
+      .hangingindent {
+        padding-left: .5in ;
+        text-indent: -.5in ;
+      }
+
+      body {
+        background-color:#991D1F;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=".">
+            <img src="./logo.gif" height="75" width="150" alt="">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="..">Home</a></li>
+            <li><a href="./upskilling.html">Upskilling Programs</a></li>
+            <li><a href="./hiring.html">Hiring</a></li>
+            <li><a href="./finance.html">Finance</a></li>
+            <li><a href="./diversity.html">Diversity</a></li>
+            <li><a href="./mentorship.html">Mentorship</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="panel panel-primary"> 
+        <div class="panel-body" style="padding:10px; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size: 16px;">
+          <p style="font-size:20px">Hiring</p>
+          <br>
+          <p style="color:#336799">MOOCs</p>
+          <br>
+          <p>Hiring</p>
+          <br>
+          <p>Our research overwhelmingly indicates that an industry-wide credentialing standard for MOOCs would be a quantum leap towards encouraging the consideration of MOOCs in the hiring process. An industry-developed credential unit—be it a certificate, or a digital badge, or so on—would have a recognized legitimacy with employers, a vast improvement over the current clutter of accreditation systems. </p>
+          <br>
+          <p>The standardization of MOOC credentialing would make it possible for the consistent certification of specific skill levels (i.e. Advanced Python Programming), enabling employers to more effectively evaluate the abilities possessed by prospective employees. Moreover, the development of such a standard by industry would allow the metrics of evaluation to be set by those who are most familiar with them, yielding a better fit between course content and employer needs, while simultaneously giving employers confidence in the ability of MOOC-trained employees to carry out needed tasks.</p>
+          <br>
+          <p>The efforts of the Open Education Alliance, especially in the industry-driven development of the Udacity Nanodegree, and the Mozilla Foundation, in the development of the Mozilla Open Badges standard, are extremely promising steps towards standardization. The Open Education Alliance’s efforts show that industry collaboration can help develop effective credentialing structures, while Mozilla’s Open Badges project offers a fairly robust prototype of a technical mechanism for digital credentials.</p>
+          <br>
+          <p>We call upon IT sector to collaborate on the development of a standardized credential system for MOOCs, over the course of the next few years. Doing so would not only convey an industry-wide vote of confidence in the principles of massively open online education, but would also clear the way for widespread adoption of MOOCs as an alternative training pathway.</p>
+          <br>
+          <p>Diversity</p>
+          <br>
+          <p>Given the under-representation of certain demographics in both the IT workforce and the MOOC student body, efforts at the local level to engage a variety of populations in learning from MOOCs would have numerous benefits. Most clearly, direct outreach at the local/mayoral level would expose more people to the benefits they could reap from participating in MOOCs—an opportunity they might not have been previously familiar with. From an industry perspective, this sort of outreach not only has the potential to increase the size of the IT workforce, but also offers the intangible benefit of bringing people with a variety of backgrounds into the IT sector, creating a healthy diversity of views. From a local/mayoral perspective, promoting MOOCs to underrepresented groups would not only be a straightforward task, as it could be done in coordination with existing civic organizations, but it could also help strengthen community ties between local government, business, and various target demographics.</p>
+          <br>
+          <p>Financing</p>
+          <br>
+          <p>Our research leads us to endorse the recommendation of the December 2013 PCAST letter to President Obama, which asserted that market forces should be allowed to “decide which innovations in online teaching and learning are best.” Looking at the MOOC industry a year later, it is clear that MOOCs are still a nascent technology, and excessive regulation could have the effect of prematurely arresting the rapid pace of innovation needed to further their development.</p>
+          <br>
+          <p>While it is crucial that MOOC providers be allowed to innovate and develop their own long-term business models, short-term financial backing would supplement the continued development of MOOCs, while also promoting increased adoption by users -- both of which would bode well for MOOCs’ long-term prospects.</p>
+          <br>
+          <p>In 2012, the Bill and Melinda Gates Foundation awarded $550,000 to five universities, enabling the development of seven new MOOCs. The initiative not only provided financial support for creating new MOOCs, but also ensured that those courses would be at the introductory level, making them appealing to a wider variety of users. </p>
+          <br>
+          <p>Mentorship</p>
+          <br>
+          <p>Our research indicates that the development of mentorship models that are both more effective and more accessible will be key to the long-term success of MOOCs as an educational paradigm. </p>
+          <br>
+          <p>While in-person classroom instruction by skilled teachers is, as Stanford University president John Hennessy puts it, the current “gold standard” of education, MOOCs are designed to meet the needs of students for whom such instruction is not feasible. Though existing, overwhelmingly digital attempts to foster student-student and student-teacher interactions, through online forums, video chats, and the like, have left much to be desired, mentorship on a local level could offer an effective alternative.</p>
+          <br>
+          <p>Dr. Charles Severance’s travelling “office hours” raise intriguing possibilities for local involvement in MOOC mentorship. The development of in-person local study/support groups -- similar to Dr. Severance’s “office hours” -- would go a long way towards replicating the benefits of the traditional classroom environment, by giving students a place to collaborate on projects and seek advice from each other. </p>
+          <br>
+          <p>In a similar vein, local IT professionals with experience in the subject of the MOOC could inhabit the role traditionally held by teaching assistants, attending local study/support groups to offer insight into the subject at hand, while also giving students a chance to develop valuable connections within the IT industry. </p>
+          <br>
+          <p>Facilitating MOOC study/support groups is a task that local government could readily embrace, given their existing strengths at communicating with both the local community and local professionals.</p>
+          <br>
+          <p style="color:#336799">Community Colleges</p>
+          <br>
+          <p>Diversity</p>
+          <br>
+          <p>Both the lack of diversity regarding women, the elderly, and underrepresented minorities in the tech sector as well as broader challenges for community colleges, including raising retention rates and streamlining the hiring process, can be addressed through mentorship services. Community colleges should provide their students with mentorship programs, among other resources, that ensure that all tech students, but especially these groups, will be successful not just in completion of the program but also in seeking employment. Mentorship can deal with 1) increasing diversity and 2) helping students learn the lay of the land regarding employment in the tech industry. </p>
+          <br>
+          <p>Scottsdale Community College in Arizona, for instance, provides mentorship programs directed at particular underrepresented student demographics. For example, SCC’s Women Leadership Group works in conjunction with the mentorship program to provide female students with the necessary support for “individual learning goals” and “professional opportunities” (Chen 4). This type of mentorship program can be particularly beneficial in ensuring diversity in the tech sector, as underrepresented populations can be given the support they need to succeed in the field. </p>
+          <br>
+          <p>In an alternate approach that focuses more on general student success and completion of programs, Hostos Community College in New York City provides mentorship using a network of collegiate members to engage students and prevent dropout. This increases community college retention rates, which results in more students receiving degrees and entering the workforce. In fields such as technology, where there is a skills gap, this is of critical importance (Chen 3).</p>
+          <br>
+          <p>Hiring</p>
+          <br>
+          <p>Bridging the gap between employer needs and the current curriculum of community colleges is costly and difficult for community colleges. To bridge the aforementioned gap and to alleviate the financial burden, community colleges and tech companies in the private sector should form partnerships to streamline the hiring process. Through these partnerships, community colleges and tech companies could ensure that educational curriculums and employer needs are congruent to each other, allowing for an alignment of interests between the educational and private sectors. </p>
+          <br>
+          <p>For community colleges, partnerships help to offset the costs of reforming the curriculum development system, while increasing chances of student success in terms of finding jobs after graduation. For tech startups and companies, partnerships provide a direct pipeline to potential hires, as well as working to raise awareness of community college tech programs more broadly. In a field in which there is a significant skills gap, this can be used to bridge the divide. Additionally, with partnerships, both businesses and community colleges face lessened financial burdens, something especially significant for community colleges, which rely heavily on government funding. For students, partnerships can increase readiness and preparedness to enter to the workforce, as education would be more closely tied to hiring.</p>
+          <br>
+          <p>Partnerships with community colleges are particularly beneficial for companies that are located in areas in which there are difficulties recruiting employees. For example, a technology company in the Bronx, NY called OnForce Solar prefers to collaborate with local community colleges that will train potential employees rather than seeking nonlocal employees because it is so difficult to recruit employees to the area. Specifically, OnForce Solar and Bronx Community College would partner to create a technology hub that would allow new tech businesses to grow and develop by creating tax-free business zones while also developing a “skilled local work force” by providing hands-on training and real world experience (Hu 1-2).</p>
+          <br>
+          <p>Finance</p>
+          <br>
+          <p>Community colleges rely heavily on government funding, but are often left lacking adequate resources. To address the difficulty in obtaining funding, the government, as well as the private sector, should take steps to promote funding as a strategic endeavor rather than solely as a philanthropic contribution to education. In particular, funding could be allocated and distributed to those educational institutions using innovative and effective means to help educate students and place them in jobs. </p>
+          <br>
+          <p>An examples of strategic funding from the government is Mayor Rahm Emanuel’s financial plan for Chicago’s community colleges. Emanuel has approved measures to strategically focus its funding resources and efforts; each community college will specialize its curriculum to a particular industry and will receive funding to do so. The industries that will receive community college specialization have been selected as those that Emanuel expects to have massive job expansion in next few years. For example, Malcolm X College will get a $ 251 million campus, and its courses will now match needs of its partner, Rush University Medical Center (“Restoration drama” 2-3). This strategic funding forces a pipeline between community colleges and employers, which can help to close the tech skills gap.</p>
+          <br>
+          <p>An example of strategic funding from a nonprofit is the Robin Hood Foundation’s College Success Prize. The $5 million competition rewards creative, innovative, technology-based solutions that can be used to help increase student success in community colleges, particularly that of low income students. Through strategic funding, the Robin Hood Foundation provides funding for community colleges in a manner in which it is likely to be used most productively, thus also increasing incentive for private funding for community colleges (“Robin Hood Prize” 1).</p>
+          <br>
+          <p>Elected officials also must make funding for community colleges a priority, finding ways to hold those institutions accountable to their uses of funding. Those in office should ensure that the institutions that educate approximately half of all higher education students have proper and sufficient funding to carry out the significant task of educating the workforce. </p>
+
+          <br>
+          <p align="center">Works Cited</p>
+          <p class="hangingindent">Chen, Grace. “The Value of Mentoring Programs in Community College.” <em>Community College Review</em>. Community College Review, n.d. Web. &lt;<a href="http://www.communitycollegereview.com/articles/64">http://www.communitycollegereview.com/articles/64</a>&gt;.</p>
+          <p class="hangingindent">Hu, Winnie. “Solar Company and Bronx College Plan a Technology Hub.” <em> New York Times </em> 26 Sept. 2014, New York ed., sec. A: 29. Print.</p>
+          <p class="hangingindent">“Community colleges: Restoration drama.” <em> The Economist </em> 28 Apr. 2012: n. pag. Print.</p>
+          <p class="hangingindent">“Robin Hood Prize: College Success.” <em>The Robin Hood Foundation </em>. The Robin Hood Foundation, n.d. Web. &lt;<a href="https://www.robinhood.org/prize/rules">https://www.robinhood.org/prize/rules</am>.</p>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-custom navbar-fixed-bottom" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="..">Project by the Technology and Innovation Policy Group at the Harvard University Institute of Politics</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="./football_site_files/jquery.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./tech_policy_files/bootstrap.min.js"></script> 
+    <script src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+    <!-- <script src="./football_site_files/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./tech_policy_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1417336879956">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1417336879956" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="10" style="font-weight:bold;font-size:10pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">200x200</text></svg></body></html>
