@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- based on (0043)http://getbootstrap.com/examples/dashboard/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./logo.gif">
+
+    <title>Technology Policy and Innovation</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS for datatables --> 
+    <link href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./tech_policy_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      .navbar-custom {
+        background-color:#336799;
+        /* color:#FFFFFF; */
+        color:white;
+        font-weight:bold;
+        font-size:1.2em;
+        border-radius:0;
+      }
+
+      .navbar-custom .navbar-nav > li > a {
+        /*color:#fff; */
+        color:white;
+        font-weight:bold;
+      }     
+      .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+        /* color: #ffffff; */ 
+        color: white;
+        font-weight:bold;
+        background-color:transparent;
+      }
+      .navbar-custom .navbar-brand {
+        font-weight:bold;
+        font-size:1em;
+        color:white;
+      }
+
+      .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
+        background-color: transparent;
+        color: #999999;
+        font-size:1em;
+        color:white;
+      }
+
+      .panel {
+        background-color:white;
+        color:black;
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
+        vertical-align: center;
+        margin-bottom: 21px;
+        margin-top:21px;
+        border-radius: 4px;
+      }
+
+      .panel-body {
+        padding: 15px;
+        margin-top:1in;
+        margin-bottom:1in;
+        margin-left:1in;
+        margin-right:1in;
+      }
+
+      .hangingindent {
+        padding-left: .5in ;
+        text-indent: -.5in ;
+      }
+
+      body {
+        background-color:#991D1F;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=".">
+            <img src="./logo.gif" height="75" width="150" alt="">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="..">Home</a></li>
+            <li><a href="./upskilling.html">Upskilling Programs</a></li>
+            <li><a href="./hiring.html">Hiring</a></li>
+            <li><a href="./diversity.html">Diversity</a></li>
+            <li><a href="./mentorship.html">Mentorship</a></li>
+            <li><a href="./recommendations.html">Recommendations</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="panel panel-primary"> 
+        <div class="panel-body" style="padding:10px; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size: 16px;">
+          <p style="font-size:20px">FINANCE</p>
+          <br>
+          <p style="color:#336799">MOOCs</p>
+          <br>
+          <p>MOOCs face two key tests on the funding front: proving their long-term viability and lowering barriers to access for students.</p>
+          <br>
+          <p>From a financial perspective, the MOOC landscape is currently divided into two broad categories: non-profit and for-profit providers. The largest MOOC provider in the nonprofit space is the university-backed edX consortium. Founded by Harvard and MIT, the consortium is funded in large part by contributions from its member universities: its most significant sources of funding to date have been the matching $30 million donations put forth by Harvard and MIT, when the consortium was first announced (Gannes). The for-profit space is largely dominated by venture-capital funded enterprises, including the two largest for-profit MOOC providers, Coursera and Udacity (“Coursera Secures”; Chapman).</p>
+          <br>
+          <p>To date, neither the non-profit nor the for-profit MOOC providers have outlined a long-term business plan, instead opting to rapidly iterate their products, and test a variety of pricing models. While this does call into question their viability as a long-term provider of educational credentials -- students and employers alike are more likely to commit to an educational platform that they are confident will exist in five years’ time -- it is important to recall that the MOOC industry is still very much in its infant stages, with less than two years between the founding of the major providers and today. As such, concerns about long-term viability -- while strategically important -- are not necessarily fundamental impediments to the further growth of this emerging sector.</p>
+          <br>
+          <p>The lack of a fixed long-term business model, while conducive to the rapid innovation that enables a rising industry like the MOOC sector to thrive, does raise questions about the financial barriers to accessing MOOCs. As mentioned earlier, the cost of a single MOOC can vary significantly from provider to provider, fluctuating in a range from free to $500, based on the course content and the level of credentialing offered. These relatively low barriers to entry have largely stifled discussion surrounding the cost of MOOCs to end-users, leading to the proliferation of a wide variety of pricing models (Dellarocas and Van Alstyne). This variability of cost -- again, a function of the MOOC sector being in its early stages -- may eventually come to pose financial challenges to users, as widespread adoption of MOOCs increases, but we do not see it as a major concern in the near future.</p>
+          <br>
+          <p style="color:#336799">Community Colleges</p>
+          <br>
+          <p>Community colleges rely on government funding for a significant portion of their revenue (Dowd and Shieh 39). Community colleges use funding and government financial resources not only to run and grow effectively, but also towards aiding students in meeting tuition costs, thus making the community college a more accessible opportunity for students from a range of socioeconomic backgrounds (Merisotis and Wolanin 1, 3).</p>
+          <br>
+          <p>The government is working to mitigate these costs by increasing the number of contracts for worker training through the Workforce Investment Act (WIA). The WIA was created to help bridge the divide between employers and other agents in the hiring process, including educational institutions from which potential hires emerge. The WIA is focused on serving the youth (ages 14-21), disadvantaged adults, and dislocated workers. Although many community colleges view the WIA as burdensome, it can be very useful in bridging the technology sector skills gap (“Working it Out” 12, Leigh 4).</p>
+          <br>
+          <p>Those at the national, state, and local level should coordinate efforts to ensure that community college funding needs are effectively communicated and addressed. An example of impactful legislation includes the Ready to Work Partnership Initiative, recently announced by the U.S. Department of Labor as $169,771,960 in grants as part of an initiative to connect “ready to work” Americans with “ready to be filled” jobs, especially through accelerated training programs (“Ready to Work” 1). Through this initiative, programs that “can effectively recruit and serve long-term unemployed workers” are funded. Programs then focus on three aspect: “1) intensive coaching and other short-term, specialized services culminating in direct job placement into middle and high-skilled jobs; 2) short-term training leading to employment; and 3) accelerated skills training along a career pathway that leads to an industry-recognized credential and employment” (“Notice of Availability” 5-6).</p>
+          <br>
+          <p>While community colleges have largely relied upon government funding, the private sector can also offer financial support. These partnerships with the private sector would increase ties in the local community, further establishing the legitimacy of community colleges and investing in the private sector and, specific to this paper’s purposes, the technology industry, in the students as a future source of employees. Indeed, a recent trend has indicated that community colleges are seeking increased revenue from external sources outside of the state and local government. Unfortunately, this has caused state and local government to decrease funding, despite the fact that government funding is uniquely important because it allows state and local policies to align with the interests of community college students, many of which are low-income. (Wyner and Hallman 1, Leonhardt 1).a href=""></a></p>
+          <br>
+          <p style="color:#336799">Coding Bootcamps</p>
+          <br>
+          <p>To address the fact that many students find the costs of bootcamps prohibitively high, there are several avenues they could take to improve financing options. The first would be to obtain loans from private companies or startups. For instance, Upstart, a small peer-to-peer lending company based in Palo Alto has introduced loans for coding bootcamps. This is useful because not all bootcamps are accredited, in which case their students are not eligible for financial aid. This includes government-backed student loans. Upstart has partnerships with 13 coding academies so students have access to income-share loans. Upstart currently requires borrowers to hold a college degree or be within six months of graduating, but it waives this rule for the 13 bootcamps that it holds as partners. These camps include Dev Bootcamp, General Assembly, and Coding Dojo. General Assembly also offers students loan options through LendKey Technologies, but this is only available within the state of New York (Upstart). </p>
+          <br>
+          <p>Alternatively, some bootcamps handle tuition costs and financial aid internally. According to Dev Bootcamp’s website, the company “does not qualify for traditional student loans. And while our $12,200 tuition is half of what an average year of college costs, without access to traditional student loans our students have to be a little more creative.” The company notes that 85% of students have a job within 3 months so the cost is worth it. For students who still worry about the price tag, Dev Bootcamp suggests investor backing, peer to peer lending, credit card payment, or a combination of the above resources (Dev Bootcamp). </p>
+          <br>
+          <p>Many bootcamps offer a refund of tuition if graduates do not find a job, a promise that speaks to the confidence of these bootcamps that graduates will be desirable candidates (Skilled Up). Others, like App Academy, charge nothing upfront but require students to pay back a small percentage of their subsequent starting salary (New York Times). </p>
+          <br>
+          <p align="center">Works Cited</p>
+          <p class="hangingindent">Chapman, Lizette. “E-Learning Startup Udacity Raises $35M to Launch ‘Nanodegrees.’” The Wall Street Journal. 2014. Web.</p>
+          <p class="hangingindent">“Coursera Secures $43M in Series B Funding.” Web.</p>
+          <p class="hangingindent">Dellarocas, Chrysanthos, and Marshall Van Alstyne. “Money Models for MOOCs.” Commun. ACM 56.8 (2013): 25–28. Web.</p>
+          <p class="hangingindent">Gannes, Liz. “Harvard and MIT Launch $60M Nonprofit Online EdX Platform.” AllThingsD. 2012. Web.</p>
+          <p class="hangingindent">Dowd, Alicia C., and Linda Taing Shieh. “Community College Financing: Equity, Efficiency, and Accountability.” <em>The NEA Almanac of Higher Education </em> (2013): 37-65. Print.</p>
+          <p class="hangingindent">Leigh, Duane E. “Community College Training and the Workforce Investment System.” <em> United States Department of Labor - Employment and Training Administration </em>. United States Department of Labor, n.d. Web. 5 Jan. 2015. <a href="http://wdr.doleta.gov/research/FullText_Documents/Community%20College%20Training%20and%20the%20Workforce%20Investment%20System%20Report.pdf">&lt;http://wdr.doleta.gov/research/FullText_Documents/Community%20College%20Training%20and%20the%20Workforce%20Investment%20System%20Report.pdf&lt;</a>.</p>
+          <p class="hangingindent">Leonhardt, David. “Though Enrolling More Poor Students, 2-Year Colleges Get Less of Federal Pie.” <em> New York Times </em> 23 May 2013, New York ed., sec. A: 20. Print.</p>
+          <p class="hangingindent">Merisotis, Jamie P., and Thomas R. Wolanin. “Community College Financing: Strategies and Challenges.” <em> American Association of Community Colleges </em>. American Association of Community Colleges, n.d. Web. <a href="http://Community College Financing: Strategies and Challenges">&lt;http://Community College Financing: Strategies and Challenges&lt;</a>.</p>
+          <p class="hangingindent">“Notice of Availability of Funds and Solicitation for Grant Applications for H-1B Ready to Work Partnership Grants.” <em>United States Department of Labor - Employment and Training Administration </em>. United States Department of Labor - Employment and Training Administration, n.d. Web. <a href="http://www.doleta.gov/grants/pdf/SGA_DFA_PY_13_07.pdf">&lt;http://www.doleta.gov/grants/pdf/SGA_DFA_PY_13_07.pdf&lt;</a>.</p>
+          <p class="hangingindent">“Ready To Work.” <em> United States Department of Labor - Employment and Training Administration </em>. United States Department of Labor, n.d. Web. <a href="http://www.doleta.gov/readytowork/">&lt;http://www.doleta.gov/readytowork/&lt;</a>.</p>
+          <p class="hangingindent">“Working It Out: Community Colleges and the Workforce Investment Act.” <em> Education Resources Information Center - Institute of Education Services </em>. Institute for the Study of Family, Work, and Community, n.d. Web. <a href="http://files.eric.ed.gov/fulltext/ED537833.pdf">&lt;http://files.eric.ed.gov/fulltext/ED537833.pdf&lt;</a>.</p>
+          <p class="hangingindent">Wyner, Joshua, and Linda D. Hallman. “Keep the Money Flowing to Community Colleges.” <em> New York Times </em> 30 May 2013, New York ed., sec. A: 22. Print.</p>
+          <p class="hangingindent">App Academy, <a href="http://www.wired.com/2013/03/free-learn-to-code-boot-camp/">http://www.wired.com/2013/03/free-learn-to-code-boot-camp/</a></p>
+          <p class="hangingindent">Dev Bootcamp, <a href="https://blog.devbootcamp.com/2014/2014-02-12-paying-for-dev-bootcamp/">https://blog.devbootcamp.com/2014/2014-02-12-paying-for-dev-bootcamp/</a></p>
+          <p class="hangingindent">San Francisco Gate, Upstart, <a href="http://www.sfgate.com/business/networth/article/Upstart-offers-loans-for-coding-boot-camps-5425672.php">http://www.sfgate.com/business/networth/article/Upstart-offers-loans-for-coding-boot-camps-5425672.php</a></p>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-custom navbar-fixed-bottom" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="..">Project by the Technology and Innovation Policy Group at the Harvard University Institute of Politics</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="./football_site_files/jquery.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./tech_policy_files/bootstrap.min.js"></script> 
+    <script src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+    <!-- <script src="./football_site_files/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./tech_policy_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1417336879956">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1417336879956" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="10" style="font-weight:bold;font-size:10pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">200x200</text></svg></body></html>
