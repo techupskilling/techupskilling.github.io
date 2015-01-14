@@ -51,6 +51,12 @@
   margin-right:1in;
 }
 
+.hangingindent {
+  padding-left: .5in ;
+  text-indent: -.5in ;
+  font-size:13px;
+}
+
 body {
   background-color:#991D1F;
 }
